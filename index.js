@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
     res.end(`
         <h1>Home page</h1>
         <ul>
-            <li><a href="api/user">Get all users</a></li>
+            <li><a href="api/user">Get all users with editing by local and push on github</a></li>
             <li><a href="api/user/1">Get 1 user</a></li>
             <li><a href="api/user/2">Get 2 user</a></li>
             <li><a href="api/user/3">Get 3 user</a></li>
