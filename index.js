@@ -11,7 +11,7 @@ app.get('/api', (req, res) => {
 
 app.get('/', (req, res) => {
     res.end(`
-        <h1>Test github actions</h1>
+        <h1>Test GitHub actions and Gitlab</h1>
     `)
 })
 
