@@ -5,7 +5,8 @@
   "main": "index.js",
   
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest"
   },
   "author": "brearey",
   "license": "ISC",
@@ -13,6 +14,6 @@
     "express": "^4.18.1"
   },
   "devDependencies": {
-
+    "jest": "^29.5.0"
   }
 }
