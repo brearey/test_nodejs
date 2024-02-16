@@ -1,6 +1,4 @@
-const app = require('../src/app')
-describe('addressModel.findAddressByProfile', () => {
-    it('should return user object if user exists', async () => {
-        // expect
-    });
+const someFunction = require('../src/somefile')
+it('should return sum', () => {
+    expect(someFunction(2, 2)).toBe(4)
 });
