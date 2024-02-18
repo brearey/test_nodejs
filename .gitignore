@@ -5,3 +5,4 @@ coverage
 package-lock.json
 .env
 .idea/test_nodejs.iml
+./.idea
