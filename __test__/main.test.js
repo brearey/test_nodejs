@@ -1,4 +1,5 @@
 const someFunction = require('../src/somefile')
-it('should return sum', () => {
-    expect(someFunction(2, 2)).toBe(4)
+
+test('adds 1 + 2 to equal 3', () => {
+    expect(someFunction(1, 2)).toBe(3);
 });
