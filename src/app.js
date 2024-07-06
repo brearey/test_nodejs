@@ -4,7 +4,11 @@ const app = express();
 app.use(express.json());
 
 app.get('/api', (req, res) => {
-    res.status(200).send({message: "This is API v.1"})
+    const userAge = Number(req.query.age)
+    if (isNaN(userAge)) {
+        process.exit(1) //This is an operational error: Invalid user input
+    }
+    res.status(200).send({message: `This is API v.1, your double age is ${userAge * 2}`})
 });
 
 app.get('/', (req, res) => {
