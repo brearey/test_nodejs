@@ -5,6 +5,6 @@
   "script": "index.js",
   "sourceDir": "",
   "logFile": "forever.log",
-  "outFile": "out.log",
-  "errFile": "error.log"
+  "outFile": "logs/out.log",
+  "errFile": "logs/error.log"
 }
