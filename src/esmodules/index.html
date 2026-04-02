@@ -4,9 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    div.btn {
+      height: 90px;
+      width: 90px;
+      border-radius: 8px;
+      line-height: 90px;
+      text-align: center;
+      border: 1px solid grey;
+      user-select: none;
+      display: inline-block;
+    }
+
+    div.btn:hover {
+      background-color: #eee;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
   <h1>ES modules learning</h1>
+  <div class="container">
+    <div id="btn1" class="btn">Button 1</div>
+    <div id="btn2" class="btn">Button 2</div>
+  </div>
+
   <script type="module" src="app.js"></script>
 </body>
 </html>
